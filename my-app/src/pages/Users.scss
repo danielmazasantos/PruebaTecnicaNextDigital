@@ -1,0 +1,44 @@
+$bg-card: #121935;
+$border: #27306a;
+$text: #e6ecff;
+
+.users-page {
+  .users-grid {
+    padding: 1.5rem;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+
+  .user-card {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    background: #121935;
+    border: 1px solid $border;
+    border-radius: 14px;
+    padding: 1rem;
+    height: 100%;
+
+    .user-name {
+      margin: 0;
+      font-size: 1rem;
+      color: #e6ecff;
+    }
+
+    .user-card__action {
+      margin-top: auto;
+      .button {
+        border: 1px solid $border;
+        background: #0d1430;
+        color: $text;
+        padding: .5rem .9rem;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: transform .12s ease;
+
+        &:hover { transform: translateY(-1px); }
+      }
+    }
+  }
+}

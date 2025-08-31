@@ -1,0 +1,47 @@
+
+
+.home {
+  .container {
+    margin-top: 3.25rem;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    background:  #121935;
+    border: 1px solid #27306a;
+    border-radius: 16px;
+    padding: 2rem;
+    gap: 4rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+
+    h2.title {
+      margin: 0 0 0.8rem 1rem;
+      font-size: 1.25rem;
+      color: #e6ecff;
+    }
+
+    p.hint {
+      font-size: 0.9rem;
+      color: #9fb0ff;
+      line-height: 1.4;
+      margin-bottom: 1rem;
+    }
+
+    .button.primary {
+      background: #7ca3ff;
+      color: #0b1020;
+      width: 30%;
+      font-weight: 600;
+      padding: 0.6rem 1rem;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: transform 0.15s ease;
+      align-self: center;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+    }
+  }
+}
