@@ -19,10 +19,13 @@ interface User {
 
         fetch("https://jsonplaceholder.typicode.com/users").then(res => {
 
-            if (!res.ok) throw new Error("Error en la petición");
+            if (!res.ok){
+                setErr("Error en la petición")
+                throw new Error("Error en la petición")
+            };
             return res.json();
 
-        }).then(data => {
+        }).then(data => { 
             setUsers(data)
         })
 

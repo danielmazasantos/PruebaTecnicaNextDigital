@@ -1,0 +1,42 @@
+
+.user-detail {
+  background: #121935;
+  border: 1px solid #27306a;
+  border-radius: 14px;
+  padding: 1.5rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  color: #e6ecff;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .info {
+    margin-bottom: 1.5rem;
+
+    p {
+      margin: 0.4rem 0;
+    }
+
+    strong {
+      color: #e6ecff;
+    }
+  }
+
+  .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid #27306a;
+    border-radius: 8px;
+    color: #e6ecff;
+    text-decoration: none;
+    background: #0d1430;
+    transition: transform 0.15s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}

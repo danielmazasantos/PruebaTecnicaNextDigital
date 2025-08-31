@@ -1,6 +1,4 @@
-$bg-card: #121935;
-$border: #27306a;
-$text: #e6ecff;
+
 
 .users-page {
   .users-grid {
@@ -15,7 +13,7 @@ $text: #e6ecff;
     flex-direction: column;
     gap: .75rem;
     background: #121935;
-    border: 1px solid $border;
+    border: 1px solid #27306a;
     border-radius: 14px;
     padding: 1rem;
     height: 100%;
@@ -29,9 +27,9 @@ $text: #e6ecff;
     .user-card__action {
       margin-top: auto;
       .button {
-        border: 1px solid $border;
+        border: 1px solid #27306a;
         background: #0d1430;
-        color: $text;
+        color: #e6ecff;
         padding: .5rem .9rem;
         border-radius: 10px;
         text-decoration: none;
